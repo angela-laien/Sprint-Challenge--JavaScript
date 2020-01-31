@@ -1,0 +1,20 @@
+1. Describe the biggest difference between .forEach & .map.
+    The biggest difference is that .forEach changes the original array when .map returns a new array.
+
+2. What is the difference between a function and a method?
+    A function is defined outside of an object while a method is a property of an object.
+
+3. What is closure?
+    A closure gives a inner function access to an outer enclosing function's scope.
+
+4. Describe the four rules of the 'this' keyword.
+    1) When the 'new' keyword is used to call the function, 'this' inside the function is a brand new object.
+
+    2) During explicit binding, 'apply', 'call', or 'bind' are used to call a function, and 'this' inside the function is the object that is passed in as the argument.
+
+    3) During implicit binding, 'this' means the object on which the function is called 
+    
+    4) The 'this' keyword is the global object. With arrow functions, 'this' keeps the same value as its parent scope.
+
+5. Why do we need super() in an extended class?
+    The super() is used to call the constructor of the parent class and to access the parent's properties and methods.
